@@ -229,6 +229,8 @@
     <Compile Include="Models\Response\GistFile.cs" />
     <Compile Include="Models\Response\GistFork.cs" />
     <Compile Include="Models\Response\GistHistory.cs" />
+    <Compile Include="Helpers\IReadOnlyList.cs" />
+    <Compile Include="Helpers\TaskShims.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
